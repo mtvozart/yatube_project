@@ -31,6 +31,13 @@ deactivate
 python3 manage.py runserver
 ```
 
+### Создание приложения
+```
+python3 manage.py startapp имя_приложения
+django-admin startapp имя_приложения
+python3 -m django startapp имя_приложения
+```
+
 ### Сохранение версий, пуш на Git:
 ```
 git add . (или имя файла для отслеживания)
